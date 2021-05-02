@@ -6,7 +6,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.map {|name| batch_badge_creator(name)}
+  badge_messages = []
+  array.each do |name| 
+    badge_messages << badge_maker(name)
+ end
+ badge_messages
 end
 
 
