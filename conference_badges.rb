@@ -25,5 +25,4 @@ end
 
 def printer(array)
   puts assigned(array)
-
 end
