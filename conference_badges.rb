@@ -1,6 +1,5 @@
 # Write your code here.
-["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-array = []
+
 def badge_maker(name)
   return"Hello, my name is #{name}."
 end
